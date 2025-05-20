@@ -13,4 +13,4 @@ jobs:
               run: dotnet --version
 
             - name: install deps
-              run: dotnet restore
+              run: dotnet restore 
