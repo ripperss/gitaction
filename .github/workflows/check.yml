@@ -9,5 +9,8 @@ jobs:
             - name: Checkout
               uses: actions/checkout@v3
             
+            - name: Проверка версии .NET
+              run: dotnet --version
+
             - name: install deps
               run: dotnet restore
