@@ -20,3 +20,10 @@ jobs:
         steps:
             - name: run tests
               run: dotnet test --verbosity normal
+    scret:
+        runs-on: self-hosted
+        steps: 
+            - name: Print secret
+              run: echo ${{ secrets.SECRET }}
+            
+                
