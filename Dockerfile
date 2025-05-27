@@ -24,4 +24,4 @@ EXPOSE 80
 EXPOSE 443
 
 # Запускаем приложение
-ENTRYPOINT ["dotnet", "TodoApi.dll"] 
+ENTRYPOINT ["dotnet", "TodoApi.dll"]
